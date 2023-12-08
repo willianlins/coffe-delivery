@@ -1,6 +1,6 @@
 export const defaultTheme = {
 
-  'yellow-100': '#C47F17',
+  'yellow-100': '#F1E9C9',
   'yellow-500': '#DBAC2C',
   'yellow-900': '#C47F17',
 
@@ -9,7 +9,7 @@ export const defaultTheme = {
   'purple-900': '#4B2995',
 
   'white': '#FFFFFF',
-  'background-100': '#272221',
+  'background-100': '#FAFAFA',
   'base-card-200': '#F3F2F2',
   'base-input-300': '#EDEDED',
   'base-button-400': '#E6E5E5',
