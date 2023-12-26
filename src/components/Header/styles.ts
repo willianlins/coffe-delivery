@@ -3,10 +3,11 @@ import { styled } from "styled-components";
 
 export const HeaderContainer = styled.header`
   height: 6.5rem;  
-  padding: 2rem 10rem;
-
+  width: 70rem;
   display: flex;
   justify-content:space-between;
+  
+  align-items:center;
 
   div{
     display: flex;
