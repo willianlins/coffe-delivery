@@ -9,18 +9,29 @@ export const WrapperHomeItens = styled.main `
   flex-direction: column;
   align-items: center;
 
-  
+  margin-bottom: 6.25rem;
 `
 export const ContentInfoHome = styled.div`
   background-image: url(${imgBackground});
-
-  width: 100vw;
-  height: 544px;
   background-size: cover;
+  background-position: center;
+  width: calc(100vw - 20px);
+  height: 544px;
   margin: 0 auto;
 
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 `;
 
+export const ContentInfoLeft = styled.div`
+
+  
+  ul{
+    list-style: none;
+  } 
+`;
 export const ContainerList = styled.div`
   width: 70rem;
   
